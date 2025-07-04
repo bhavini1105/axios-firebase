@@ -10,3 +10,68 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# Axios + Firebase Project
+
+This project demonstrates how to use **Axios** to interact with **Firebase Realtime Database** using a React frontend. It includes basic CRUD operations (Create, Read, Update, Delete) to manage user data.
+
+## 🔗 Live Demo
+> *(If hosted, provide the link here. Otherwise, remove this section.)*
+
+## 📁 Project Structure
+
+axios-firebas/
+|
+├── public/ 
+|
+├── src/
+| |
+│ ├── components/ 
+| | |
+│ │ ├── AddUser.jsx
+| | |
+│ │ ├── EditUser.jsx
+| | |
+│ │ └── UserTable.jsx 
+| |
+│ ├── App.js 
+| |
+│ ├── index.js 
+| |
+│ └── firebase.js 
+|
+├── .gitignore
+|
+├── package.json 
+|
+└── README.md 
+
+
+## 🔧 Features
+
+- ✅ Add a user
+- 📝 Edit existing user
+- ❌ Delete a user
+- 📄 Fetch users from Firebase
+- 📡 Axios-based HTTP communication
+
+## 🚀 Technologies Used
+
+- **React.js**
+- **Axios**
+- **Firebase Realtime Database**
+- **React Router (for navigation)**
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository:**
+
+git clone https://github.com/bhavini1105/axios-firebas.git
+cd axios-firebas
+Firebase Setup:
+
+2. **Go to Firebase Console:**
+Create a new project
+Add Firebase Realtime Database
+Go to Project Settings > General and copy your config
