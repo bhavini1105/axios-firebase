@@ -19,33 +19,6 @@ This project demonstrates how to use **Axios** to interact with **Firebase Realt
 ## 🔗 Live Demo
 > *(If hosted, provide the link here. Otherwise, remove this section.)*
 
-## 📁 Project Structure
-
-axios-firebas/
-|
-├── public/ 
-|
-├── src/
-| |
-│ ├── components/ 
-| | |
-│ │ ├── AddUser.jsx
-| | |
-│ │ ├── EditUser.jsx
-| | |
-│ │ └── UserTable.jsx 
-| |
-│ ├── App.js 
-| |
-│ ├── index.js 
-| |
-│ └── firebase.js 
-|
-├── .gitignore
-|
-├── package.json 
-|
-└── README.md 
 
 
 ## 🔧 Features
