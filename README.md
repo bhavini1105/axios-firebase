@@ -16,10 +16,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 This project demonstrates how to use **Axios** to interact with **Firebase Realtime Database** using a React frontend. It includes basic CRUD operations (Create, Read, Update, Delete) to manage user data.
 
-## 🔗 Live Demo
-> *(If hosted, provide the link here. Otherwise, remove this section.)*
-
-
 
 ## 🔧 Features
 
